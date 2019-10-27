@@ -1,6 +1,6 @@
 header, footer {
-	background-color: #5d7d87;
-	color: #fef9ff;
+	background-color: #6376FF;
+	color: #C2C9FF;
 	height: 130px;
 	text-align: center;
 	padding: 30px 10px 20px 10px;
@@ -24,7 +24,7 @@ header {
 }
 
 body {
-	background-color: #d1e0e0;
+	background-color: #C2C9FF;
 }
 
 #home-main {
@@ -41,14 +41,14 @@ nav {
 }
 
 nav .btn {
-    background-color: #5b7d87;
-    color: #fef9ff; 
+    background-color: #C2C9FF;
+    color: #4D5385; 
     margin-right: 30px;
 }
 
 nav a:hover {
-	background-color: #fef9ff;
-	color: #5b7d87;
+	background-color: #4D5385;
+	color: #C2C9FF;
 }
 nav a:active {
 	font-weight: bold;
@@ -67,11 +67,13 @@ nav a:visited {
 	color: black;
 }
 
+/* OLD BUTTON STYLING
+
 .btn
 {
 	font-size: 1.2em;
 	background-color: #e6e6e6;
-	color: #0d1f2d;
+	color: #C2C9FF;
 	padding: 4px 8px;
 	margin-bottom: 12px;	
 	margin-top: 12px;
@@ -80,6 +82,8 @@ nav a:visited {
 
 .btn:hover{
 	font-size: 1.2em;
-	background-color: #0d1f2d;
+	background-color: #C2C9FF;
 	color: #e6e6e6;
 }
+
+*/
