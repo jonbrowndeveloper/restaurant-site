@@ -1,32 +1,49 @@
 header, footer {
 	background-color: #5d7d87;
 	color: #fef9ff;
-	height: 100px;
+	height: 130px;
 	text-align: center;
 	padding: 30px 10px 20px 10px;
+	font-size: 1rem;
+}
+
+.noscriptheader {
+	background-color: #a4302a;
+	color: #000;
+	height: 55px;
+	text-align: center;
+	padding: 8px 8px 8px 8px;
+}
+
+footer {
+	height: 140px;
 }
 
 header {
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-#home-main {
+body {
 	background-color: #d1e0e0;
+}
+
+#home-main {
 	text-align: center;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
 
-nav a {
-	background-color: #5d7d87;
-	color: #fef9ff;
-	padding: 8px;
-	border: thin solid #0d1f2d;
-	text-decoration: none;
-	text-align: center;
-	display: block;
-	margin: 20px;
-	width: 100px;
+nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav .btn {
+    background-color: #5b7d87;
+    color: #fef9ff; 
+    margin-right: 30px;
 }
 
 nav a:hover {
@@ -38,12 +55,31 @@ nav a:active {
 }
 
 nav a:visited {
-	color: #e4c3ad;
+	color: purple;
 }
 
 .clear-float {
     clear: both;
 }
 
+.carousel-item {
+	height: 300px;
+	color: black;
+}
 
+.btn
+{
+	font-size: 1.2em;
+	background-color: #e6e6e6;
+	color: #0d1f2d;
+	padding: 4px 8px;
+	margin-bottom: 12px;	
+	margin-top: 12px;
+	border-radius: 8px;
+}
 
+.btn:hover{
+	font-size: 1.2em;
+	background-color: #0d1f2d;
+	color: #e6e6e6;
+}
