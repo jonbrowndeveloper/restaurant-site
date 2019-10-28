@@ -64,7 +64,11 @@ nav a:visited {
 
 .carousel-item {
 	height: 300px;
-	color: black;
+	color: white;
+}
+
+.carousel-indicators .active{
+    background-color: black;
 }
 
 /* OLD BUTTON STYLING
